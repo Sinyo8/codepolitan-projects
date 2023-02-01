@@ -1,0 +1,51 @@
+body {
+  background-color: #c2ded1;
+  font-family: "Space Mono", monospace;
+  overflow-x: hidden;
+}
+
+#navbar {
+  font-weight: 200;
+  font-size: 1em;
+}
+#navbar .navbar-brand {
+  color: #333;
+  font-size: 2em;
+}
+
+#navbar .nav-link {
+  color: #333;
+}
+#navbar .nav-link:hover {
+  color: #fff;
+}
+
+.navbar .scrolled {
+  transition: 500ms;
+}
+
+#home {
+  align-items: center;
+}
+
+#home h1 {
+  text-transform: uppercase;
+}
+
+#title-head h1 {
+  font-weight: 100;
+  font-size: 3em;
+}
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-size: 2em;
+  }
+}
+#footer {
+  height: 150px;
+}
+
+#copyright h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
